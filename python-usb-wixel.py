@@ -166,6 +166,7 @@ def serialThread(dummy):
 
 			except Exception, e:
 				print "Exception: ", e
+				time.sleep(10)
 
 		except serial.serialutil.SerialException, e:
 			print "Serial exception ", e
